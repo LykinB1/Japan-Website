@@ -12,3 +12,7 @@
     font-family: stylejaponesefont;
     src: url(../fonts/japan_rich/JapanRich-Regular.ttf);
 }
+@font-face {
+    font-family: stylejaponesefont2;
+    src: url(../fonts/old_japanese/Old\ Japanese.otf);
+}

@@ -97,10 +97,11 @@ main{
     flex-direction: column;
     align-items: center;
     width: 90%;
-    height: 2000px;
+    height: 300vw;
     margin-top: 50px;
     box-shadow: 20px 20px 20px 20px rgb(119, 112, 112);
-    background-color: white;
+    background-color: rgb(0, 0, 0);
+    border: solid 2px white;
 }
 
 #fact1{
@@ -127,6 +128,7 @@ main{
     margin-left: 50px;
     width: 600px;
     font-size: 25px;
+    color: #ffffff;
 }
 /*---------------------------------------------------------------------*/
 
@@ -134,8 +136,8 @@ main{
 #effectdbz{
     display: flex;
     justify-content: center;
-    background-image: url(../images/dragon-ball2.jpg);
-    background-size: cover;
+    background-image: url(../images/banneranime\ \(1\).png);
+    background-size: 1700px;
     background-position: center;
     background-repeat: no-repeat;
     width: 95%;
@@ -149,19 +151,261 @@ main{
     flex-direction: column;
     align-items: center;
     width: 100vw;
+    background: linear-gradient(to left, rgba(0,0,0,1) 0%, rgba(0,0,0,0.4709976798143851) 10%, rgba(0,0,0,0) 20%), linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,0.4709976798143851) 10%, rgba(0,0,0,0) 20%), linear-gradient(to top, rgba(0,0,0,1) 0%, rgba(0,0,0,0.4709976798143851) 10%, rgba(0,0,0,0) 20%), linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0.4709976798143851) 10%, rgba(0,0,0,0) 20%);
 
-    background: linear-gradient(to left, rgba(255,255,255,1) 0%, rgba(255,255,255,0.4709976798143851) 10%, rgba(255,255,255,0) 20%), linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,0.4709976798143851) 10%, rgba(255,255,255,0) 20%), linear-gradient(to top, rgba(255,255,255,1) 0%, rgba(255,255,255,0.4709976798143851) 10%, rgba(255,255,255,0) 20%), linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0.4709976798143851) 10%, rgba(255,255,255,0) 20%);
 }
 
 #animes h1{
     font-family: stylejaponesefont;
     margin-top: 40px;
     font-size: 50px;
+    color: white;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000000;
 }
 #animes h3{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     margin-top: 20px;
     font-size: 35px;
-    -webkit-text-stroke-width: 1px; /* largura da borda */
-    -webkit-text-stroke-color: #ffffff; /* cor da borda */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000000;
+    
+}
+
+#animepages{
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.animebox{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 500px;
+    height: 400px;
+}
+
+.animebox h3{
+    color: white;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.animeimg{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 300px;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    border: solid 2px white;
+}
+
+#animeimg1{
+    background-image: url(../images/dragonballgif.gif);
+}
+#animeimg2{
+    background-image: url(../images/bokunoherogif.gif);
+}
+#animeimg3{
+    background-image: url(../images/Onepiecegif.gif);
+}
+
+/*----------------------------------------------------------------------------------------------------------*/
+
+/*MANGÁS*/
+
+
+#mangas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    height: 600px;
+    margin-top: 120px;
+    background-image: url(../images/bannermanga.jpg);
+    background-size: 1200px;
+    background-position: center;
+    
+    
+}
+#effectmanga{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+
+    background: linear-gradient(to left, rgba(0,0,0,1) 0%, rgba(0,0,0,0.4709976798143851) 10%, rgba(0,0,0,0) 20%), linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,0.4709976798143851) 10%, rgba(0,0,0,0) 20%), linear-gradient(to top, rgba(0,0,0,1) 0%, rgba(0,0,0,0.4709976798143851) 10%, rgba(0,0,0,0) 20%), linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0.4709976798143851) 10%, rgba(0,0,0,0) 20%);
+    
+}
+
+#contentmangas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mangas h1{
+    font-family: stylejaponesefont;
+    margin-top: 40px;
+    font-size: 50px;
+    color: #ff7300;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000000;
+}
+
+#mangas h3{
+    color: #ff7300;
+    margin-top: 20px;
+    font-size: 32px;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #000000;
+    
+}
+
+#mangapages{
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.mangabox{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 500px;
+    height: 400px;
+}
+
+.mangabox h3{
+    color: white;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.mangaimg{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 300px;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    border: solid 2px white;
+}
+
+#mangaimg1{
+    background-image: url(../images/onepunchmanga.jpg);
+}
+#mangaimg2{
+    background-image: url(../images/berserkmanga.jpg);
+}
+#mangaimg3{
+    background-image: url(../images/vagabondmanga.jpg);
+}
+/*-------------------------------------------------------------------------------------------------*/
+
+/*Games*/
+
+#container-games{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 920px;
+}
+
+#games{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../images/bannerjogos.jpg);
+    background-size: 1200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 600px;
+    margin-top: 200px;
+    position: relative;
+}
+
+#games h1{
+    font-family: stylejaponesefont;
+    margin-top: 40px;
+    font-size: 50px;
+    color: #ffffff;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000000;
+}
+
+#games h3{
+    margin-top: 20px;
+    font-size: 32px;
+    color: white;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #000000;
+}
+
+#marioicon{
+    width: 600px;
+    max-width: 50%;
+    position: absolute;
+    top: 30%;
+    left: -25%;
+    transform: translateY(-50%);  
+
+}
+
+#zeldaicon{
+    width: 350px;
+    max-width: 50%;
+    position: absolute;
+    top: 75%;
+    left: 85%;
+    transform: translateY(-50%); 
+}
+
+
+.gamepages{
+    display: flex;
+    align-items: left;
+    width: 100%;
+    gap: 20px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.gameboxs{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 500px;
+    height: 400px;
+}
+
+.gameboxs h3{
+    color: white;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.gamesimg{
+    display: flex;
+    width: 500px;
+    height: 300px;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    border: solid 2px white;
+}
+
+#gameimg1{
+    background-image: url(../images/gameplayzeldagif.gif);
+}
+#gameimg2{
+    background-image: url(../images/gameplayghostgif.gif);
+}
+#gameimg3{
+    background-image: url(../images/gameplaysupermariogif.gif);
 }
