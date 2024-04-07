@@ -1,0 +1,110 @@
+/*Header*/
+
+header{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-image: url(../images/backgroundheader.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1200px;
+}
+
+#presentation{
+    display: flex;
+    width: 1030px;
+    justify-content: center;
+    align-items: center;
+    
+    background: linear-gradient(to left, rgba(255,255,255,1) 0%, rgba(255,255,255,0.4709976798143851) 10%, rgba(255,255,255,0) 20%), linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,0.4709976798143851) 10%, rgba(255,255,255,0) 20%);
+
+}
+
+#presentationicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/iconjapan.png);
+    background-position-y: -15px;
+    background-size: 250px;
+    width: 250px;
+    color: white;
+    font-size: 23px;
+    height: 200px;
+}
+
+#presentationicon img{
+    width: 170px;
+}
+
+#presentationtitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#presentationtitle h1{
+    font-family: stylejaponesefont;
+}
+
+
+#menu{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+
+#menu ul{
+    display: flex;
+    list-style: none;
+    gap: 150px;
+
+}
+#menu li{
+    font-family:stylejaponesefont;
+    font-size: 30px;
+}
+
+#menu a{
+    font-family:stylejaponesefont;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+/*------------------------------*/
+
+#aboutjapan{
+    display: flex;
+    width: 85%;
+    height: 600px;
+    margin: 100px;
+    margin-right: 0px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 20px 20px 20px 10px rgb(150, 150, 150);
+    border: solid 1px black;
+}
+
+#aboutjapan img{
+    display: flex;
+    width: 900px;
+    height: 500px;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-right: 0px;
+    border: solid 1px;
+    border-radius: 35px;
+}
+
+#textaboutjapan{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-left: 50px;
+    width: 740px;
+}
+
+

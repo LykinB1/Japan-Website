@@ -1,0 +1,167 @@
+main{
+    background-color: rgb(224, 224, 224);
+}
+
+/*Header*/
+
+header{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-image: url(../images/backgroundheader.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1200px;
+}
+
+#presentation{
+    display: flex;
+    width: 1030px;
+    justify-content: center;
+    align-items: center;
+    
+    background: linear-gradient(to left, rgba(255,255,255,1) 0%, rgba(255,255,255,0.4709976798143851) 10%, rgba(255,255,255,0) 20%), linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,0.4709976798143851) 10%, rgba(255,255,255,0) 20%);
+
+}
+
+#presentationicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/iconjapan.png);
+    background-position-y: -15px;
+    background-size: 250px;
+    width: 250px;
+    color: white;
+    font-size: 23px;
+    height: 200px;
+}
+
+#presentationicon img{
+    width: 170px;
+}
+
+#presentationtitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#presentationtitle h1{
+    font-family: stylejaponesefont;
+}
+
+
+#menu{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+
+#menu ul{
+    display: flex;
+    list-style: none;
+    gap: 150px;
+
+}
+#menu li{
+    font-family:stylejaponesefont;
+    font-size: 30px;
+}
+
+#menu a{
+    font-family:stylejaponesefont;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+#entertainment{
+    border-bottom: solid 5px white;
+    
+}
+/*----------------------------------------------*/
+
+/*About Entertainment*/
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#aboutentertainment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 2000px;
+    margin-top: 50px;
+    box-shadow: 20px 20px 20px 20px rgb(119, 112, 112);
+    background-color: white;
+}
+
+#fact1{
+    display: flex;
+    width: 95%;
+    height: 600px;
+}
+
+#img1{
+    display: flex;
+    width: 900px;
+    height: 500px;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-right: 0px;
+    border: solid 1px;
+    border-radius: 35px;
+}
+
+#text1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-left: 50px;
+    width: 600px;
+    font-size: 25px;
+}
+/*---------------------------------------------------------------------*/
+
+/*ANIMES*/
+#effectdbz{
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/dragon-ball2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 95%;
+    height: 600px;
+    margin-top: 30px;
+
+}
+
+#animes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+
+    background: linear-gradient(to left, rgba(255,255,255,1) 0%, rgba(255,255,255,0.4709976798143851) 10%, rgba(255,255,255,0) 20%), linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,0.4709976798143851) 10%, rgba(255,255,255,0) 20%), linear-gradient(to top, rgba(255,255,255,1) 0%, rgba(255,255,255,0.4709976798143851) 10%, rgba(255,255,255,0) 20%), linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0.4709976798143851) 10%, rgba(255,255,255,0) 20%);
+}
+
+#animes h1{
+    font-family: stylejaponesefont;
+    margin-top: 40px;
+    font-size: 50px;
+}
+#animes h3{
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    font-size: 35px;
+    -webkit-text-stroke-width: 1px; /* largura da borda */
+    -webkit-text-stroke-color: #ffffff; /* cor da borda */
+}
