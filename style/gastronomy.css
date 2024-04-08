@@ -1,0 +1,282 @@
+@font-face {
+    font-family: hotfoodfont;
+    src: url(../fonts/hot_food/Hot\ Food.otf);
+}
+@font-face {
+    font-family: menulis;
+    src: url(../fonts/menulis/menulis.ttf);
+}
+
+/*Header*/
+
+header{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-image: url(../images/backgroundheader.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1200px;
+}
+
+#presentation{
+    display: flex;
+    width: 1030px;
+    justify-content: center;
+    align-items: center;
+    
+    background: linear-gradient(to left, rgba(255,255,255,1) 0%, rgba(255,255,255,0.4709976798143851) 10%, rgba(255,255,255,0) 20%), linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,0.4709976798143851) 10%, rgba(255,255,255,0) 20%);
+
+}
+
+#presentationicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/iconjapan.png);
+    background-position-y: -15px;
+    background-size: 250px;
+    width: 250px;
+    color: white;
+    font-size: 23px;
+    height: 200px;
+}
+
+#presentationicon img{
+    width: 170px;
+}
+
+#presentationtitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#presentationtitle h1{
+    font-family: stylejaponesefont;
+}
+#presentationtitle a{
+    text-decoration: none;
+    color: white;
+}
+
+
+#menu{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+
+#menu ul{
+    display: flex;
+    list-style: none;
+    gap: 150px;
+
+}
+#menu li{
+    font-family:stylejaponesefont;
+    font-size: 30px;
+}
+
+#menu a{
+    font-family:stylejaponesefont;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+#gastronomy{
+    border-bottom: solid 5px white;
+    
+}
+
+/*------------------------------*/
+
+
+/*About Gastronomy*/
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(224, 224, 224);
+    background-image: url(../images/backgroundgastronomy.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#aboutgastronomy{
+    display: flex;
+    width: 70%;
+    height: 150vw;
+    margin-top: 50px;
+    gap: 2%;
+}
+
+
+#leftaside{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+    gap: 34px;
+}
+
+#rightaside{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+    gap: 30px;
+    
+}
+
+#img1{
+    width: 100%;
+    height: 45%;
+    margin-bottom: 200px;
+    border: solid 2px white;
+    background-image: url(../images/sushiimg.jpg);
+    background-size: 1000px;
+    background-position: center;
+
+}
+#img2{
+    width: 100%;
+    height: 45%;
+    border: solid 2px white;
+    background-image: url(../images/japanesefoodimg2.jpg);
+    background-size: 1000px;
+    background-position: center;
+}
+
+.catalog{
+    width: 100%;
+    height: 22%;  
+    border: solid 2px white;
+}
+
+#catalog2{
+    margin-bottom: 200px;
+}
+
+/*-------------------------------------------------------------------------*/
+
+/*Sushi*/
+
+
+#catalog1 h1{
+    font-family: hotfoodfont;
+    color: white;
+    font-size: 80px;
+    margin: 30px;
+}
+
+#catalog1 li{
+    font-family: menulis;
+    color: white;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+#imgsushi{
+    display: flex;
+    margin-left: 30px;
+    align-items: end;
+    width: 500px;
+    height: 250px;
+}
+#imgsushi img{
+    width: 320px;
+    border: solid 3px white;
+}
+
+/*---------------------------------------------------------------------------*/
+
+/*Ramen*/
+
+#catalog2 h1{
+    font-family: hotfoodfont;
+    color: white;
+    font-size: 80px;
+    margin: 30px;
+}
+
+#catalog2 li{
+    font-family: menulis;
+    color: white;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+#imgramen{
+    display: flex;
+    margin-left: 30px;
+    width: 400px;
+    height: 210px;
+}
+#imgramen img{
+    width: 320px;
+    border: solid 3px white;
+}
+
+/*--------------------------------------------------------------------------*/
+
+/*Tempura*/
+
+#catalog3 h1{
+    font-family: hotfoodfont;
+    color: white;
+    font-size: 80px;
+    margin: 30px;
+}
+
+#catalog3 li{
+    font-family: menulis;
+    color: white;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+#imgtempura{
+    display: flex;
+    margin-left: 30px;
+    width: 400px;
+    height: 210px;
+}
+#imgtempura img{
+    width: 320px;
+    border: solid 3px white;
+}
+
+/*----------------------------------------------------------------------------*/
+
+/*Tonkatsu*/
+
+#catalog4 h1{
+    font-family: hotfoodfont;
+    color: white;
+    font-size: 80px;
+    margin: 30px;
+}
+
+#catalog4 li{
+    font-family: menulis;
+    color: white;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+#imgtonkatsu{
+    display: flex;
+    margin-left: 30px;
+    width: 400px;
+    height: 210px;
+}
+#imgtonkatsu img{
+    width: 320px;
+    border: solid 3px white;
+}
