@@ -44,7 +44,7 @@ header{
 }
 
 #presentationtitle h1{
-    font-family: stylejaponesefont;
+    font-family: stylejapanesefont;
 }
 
 
@@ -64,12 +64,12 @@ header{
 
 }
 #menu li{
-    font-family:stylejaponesefont;
+    font-family:stylejapanesefont;
     font-size: 30px;
 }
 
 #menu a{
-    font-family:stylejaponesefont;
+    font-family:stylejapanesefont;
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 30px;

@@ -48,7 +48,7 @@ header{
 }
 
 #presentationtitle h1{
-    font-family: stylejaponesefont;
+    font-family: stylejapanesefont;
 }
 #presentationtitle a{
     text-decoration: none;
@@ -71,12 +71,12 @@ header{
 
 }
 #menu li{
-    font-family:stylejaponesefont;
+    font-family:stylejapanesefont;
     font-size: 30px;
 }
 
 #menu a{
-    font-family:stylejaponesefont;
+    font-family:stylejapanesefont;
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 30px;
@@ -159,7 +159,7 @@ main{
 }
 
 #animes h1{
-    font-family: stylejaponesefont;
+    font-family: stylejapanesefont;
     margin-top: 40px;
     font-size: 50px;
     color: white;
@@ -252,7 +252,7 @@ main{
 }
 
 #mangas h1{
-    font-family: stylejaponesefont;
+    font-family: stylejapanesefont;
     margin-top: 40px;
     font-size: 50px;
     color: #000000;
@@ -338,7 +338,7 @@ main{
 }
 
 #content-cinema h1{
-    font-family: stylejaponesefont;
+    font-family: stylejapanesefont;
     margin-top: 40px;
     font-size: 50px;
     -webkit-text-stroke-width: 0.5px;
@@ -433,7 +433,7 @@ main{
 }
 
 #games h1{
-    font-family: stylejaponesefont;
+    font-family: stylejapanesefont;
     margin-top: 40px;
     font-size: 50px;
     color: #ffffff;

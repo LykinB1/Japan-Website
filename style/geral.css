@@ -5,14 +5,14 @@
 }
 
 @font-face {
-    font-family: japonesefont;
+    font-family: japanesefont;
     src: url(../fonts/japanese/Japanese.ttf);
 }
 @font-face {
-    font-family: stylejaponesefont;
+    font-family: stylejapanesefont;
     src: url(../fonts/japan_rich/JapanRich-Regular.ttf);
 }
 @font-face {
-    font-family: stylejaponesefont2;
+    font-family: stylejapanesefont2;
     src: url(../fonts/old_japanese/Old\ Japanese.otf);
 }
