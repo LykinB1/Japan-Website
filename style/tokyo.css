@@ -179,8 +179,6 @@ header{
 
 
 
-/*Tokyo*/
-
 #tokyo{
     display: flex;
     flex-direction: column;
@@ -200,9 +198,10 @@ header{
     box-shadow: 20px 20px 20px 20px rgb(119, 112, 112);
     border: solid 2px white;
     background-color: white;
-    background-image: url(../images/);
+    background-image: url(../images/tokyobackground.jpg);
     background-size: cover;
     background-position-y: -400px;
+    background-color: #9c9c9c56;
 }
 
 #tokyodescription{
@@ -211,7 +210,8 @@ header{
     height: 650px;
     margin-top: 80px;
     margin-bottom: 20px;
-    border: solid 5px;
+    border: solid 5px white;
+    background-color: #9c9c9c56;
 }
 #tokyodescriptiontext h1{
     font-size: 45px;
@@ -232,7 +232,7 @@ header{
     margin-left: 20px;
     width: 800px;
     height: 600px;
-    border: solid 2px black;
+    border: solid 2px rgb(255, 255, 255);
     margin-right: 20px;
 }
 #tokyodescriptiontext{
@@ -249,7 +249,8 @@ header{
 }
 
 #touristattractions{
-    border: solid 5px ;
+    border: solid 5px white;
+    background-color: #9c9c9c56;
 }
 
 #touristattractions h1{
@@ -294,5 +295,5 @@ header{
     width: 350px;
     margin: 30px;
     margin-top: 60px;
-    border: solid 3px;   
+    border: solid 3px white;   
 }
