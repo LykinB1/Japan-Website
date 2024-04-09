@@ -263,7 +263,7 @@ main{
 #mangas h3{
     color: #000000;
     margin-top: 20px;
-    font-size: 32px;
+    font-size: 38px;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #ff6600;
     
@@ -347,7 +347,7 @@ main{
 }
 #content-cinema h3{
     margin-top: 20px;
-    font-size: 28px;
+    font-size: 30px;
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: #000000;
     color: white;

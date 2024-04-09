@@ -137,12 +137,8 @@ header{
     text-align: center;
     background-image: url(../images/kyotoimg1.jpg);
     background-size: cover;
-    border: solid 6px #ffffff83;
-}
-#attractionbutton1:hover{
     border: solid 10px #ffffffd5;
 }
-
 
 #attractionbutton2{
     display: flex;
@@ -160,7 +156,7 @@ header{
 #attractionbutton3{
     display: flex;
     text-align: center;
-    background-image: url(../images/);
+    background-image: url(../images/osakaimg1.jpg);
     background-size: cover;
     border: solid 6px #ffffff83;
 }
@@ -173,7 +169,7 @@ header{
 #attractionbutton4{
     display: flex;
     text-align: center;
-    background-image: url(../images/);
+    background-image: url(../images/fujiimg1.jpg);
     background-size: cover;
     border: solid 6px #ffffff83;
 }

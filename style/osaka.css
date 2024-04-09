@@ -1,0 +1,296 @@
+/*Header*/
+
+header{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-image: url(../images/backgroundheader.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1200px;
+}
+
+#presentation{
+    display: flex;
+    width: 1030px;
+    justify-content: center;
+    align-items: center;
+    
+    background: linear-gradient(to left, rgba(255,255,255,1) 0%, rgba(255,255,255,0.4709976798143851) 10%, rgba(255,255,255,0) 20%), linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,0.4709976798143851) 10%, rgba(255,255,255,0) 20%);
+
+}
+
+#presentationicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/iconjapan.png);
+    background-position-y: -15px;
+    background-size: 250px;
+    width: 250px;
+    color: white;
+    font-size: 23px;
+    height: 200px;
+}
+
+#presentationicon img{
+    width: 170px;
+}
+
+#presentationtitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#presentationtitle h1{
+    font-family: stylejapanesefont;
+}
+#presentationtitle a{
+    text-decoration: none;
+    color: white;
+}
+
+#menu{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+
+#menu ul{
+    display: flex;
+    list-style: none;
+    gap: 150px;
+
+}
+#menu li{
+    font-family:stylejapanesefont;
+    font-size: 30px;
+}
+
+#menu a{
+    font-family:stylejapanesefont;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+#tourist{
+    border-bottom: solid 5px white;
+    
+}
+
+/*About Turism*/
+
+#aboutturism{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#touristpoints{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/abouttourismimg.jpg);
+    background-size: 1200px;
+    background-position: center;
+    gap: 10px;
+    border-bottom: solid 30px ;
+}
+
+.attractions{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+}
+.attractions h1{
+    display: flex;
+    justify-content: center;
+    font-family: stylejapanesefont;
+    margin-top: 10px;
+    color: white;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: #000000;
+}
+
+
+.attractionsbutton{
+    width: 400px;
+    height: 300px;
+    
+}
+
+#attractionbutton1{
+    display: flex;
+    text-align: center;
+    background-image: url(../images/kyotoimg1.jpg);
+    background-size: cover;
+    border: solid 6px #ffffff83;
+}
+#attractionbutton1:hover{
+    border: solid 10px #ffffffd5;
+}
+
+
+#attractionbutton2{
+    display: flex;
+    text-align: center;
+    background-image: url(../images/tokyoimg.jpg);
+    background-size: cover;
+    border: solid 6px #ffffff83;
+}
+
+#attractionbutton2:hover{
+    border: solid 10px #ffffffd5;
+}
+
+
+#attractionbutton3{
+    display: flex;
+    text-align: center;
+    background-image: url(../images/osakaimg1.jpg);
+    background-size: cover;
+    border: solid 10px #ffffffd5;
+}
+
+#attractionbutton4{
+    display: flex;
+    text-align: center;
+    background-image: url(../images/fujiimg1.jpg);
+    background-size: cover;
+    border: solid 6px #ffffff83;
+}
+
+#attractionbutton4:hover{
+    border: solid 10px #ffffffd5;
+}
+
+
+
+#osaka{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 125vw;
+    background-color: #dad6d6;
+}
+
+#osakacontent{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 120vw;
+    margin-top: 50px;
+    box-shadow: 20px 20px 20px 20px rgb(119, 112, 112);
+    border: solid 2px white;
+    background-color: white;
+    background-image: url(../images/osakabackground.jpg);
+    background-size: cover;
+    background-position-y: -400px;
+    background-color: #9c9c9c56;
+}
+
+#osakadescription{
+    display: flex;
+    width: 90%;
+    height: 650px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    border: solid 5px white;
+    background-color: #9c9c9c56;
+}
+#osakadescriptiontext h1{
+    font-size: 45px;
+    color: white;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+    font-family: stylejapanesefont;
+}
+#osakadescriptiontext h3{
+    font-size: 28px;
+    margin-top: 40px;
+    color: white;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+}
+#osakadescription img{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 800px;
+    height: 600px;
+    border: solid 2px rgb(255, 255, 255);
+    margin-right: 20px;
+}
+#osakadescriptiontext{
+    margin-top: 35px;
+}
+
+/*Main attraction*/
+
+#touristattractions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+#touristattractions{
+    border: solid 5px white;
+    background-color: #9c9c9c56;
+}
+
+#touristattractions h1{
+    font-size: 45px;
+    color: white;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+    margin-top: 100px;
+    font-family: stylejapanesefont;
+}
+
+#touristattractionscontent{
+    width: 100%;
+    height: 70vw;
+}
+#touristattractionscontent h2{
+    margin: 30px;
+    font-size: 45px;
+    color: white;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+    margin-top: 100px;
+    font-family: stylejapanesefont;
+}
+
+#touristattractionscontent h3{
+    font-size: 30px;
+    margin-top: 40px;
+    color: white;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+    margin-left: 30px;
+}
+#mainattractionsimgs{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 450px;
+}
+
+
+#mainattractionsimgs img{
+    width: 450px;
+    height:500px;
+    margin: 30px;
+    border: solid 3px white;   
+}
