@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/geral.css">
-    <link rel="stylesheet" href="../style/entertainment.css">    
+    <link rel="stylesheet" href="../style/entertainment.css">
+    <link rel="stylesheet" href="../style/bootstrap/bootstrap.min.css">    
     <title>Entertainment</title>
 </head>
 <body>
@@ -32,7 +33,23 @@
                 </ul>
             </nav>
         </div>
-        <div id="aboutentertainment">
+
+        <!--Transition button-->
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="ofJapanEntertainmentbtn">
+            <label class="form-check-label" for="flexRadioDefault1">
+                Japan's Entertainment
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="JapaneseEntertainmentbtn">
+            <label class="form-check-label" for="flexRadioDefault2">
+              Japanese Entertainment
+            </label>
+          </div>
+          <!---->
+
+        <div class="container-fluid" id="aboutentertainment">
             <div id="fact1">
                 <img src="../images/entertainmentimg1.jpg" alt="" id="img1">
                 <div id="text1">
@@ -149,13 +166,43 @@
                     </div>
                 </div>
             </div>
+        </div>
 
-
-
-
-
+        <div id="EntertainmentinJapan">
+            <h1>test</h1>
         </div>
         
     </main>
+    
+
+    <script>
+        // Adiciona um event listener para os botões de rádio
+        document.querySelectorAll('.form-check-input').forEach(item => {
+            item.addEventListener('click', function(event) {
+                // Verifica qual botão de rádio foi clicado
+                if (event.target.id === 'ofJapanEntertainmentbtn' && event.target.checked) {
+                    // Se o botão "Japanese entertainment" for selecionado
+                    document.getElementById('EntertainmentinJapan').style.display = 'flex'; // Mostra o conteúdo correspondente
+                    document.getElementById('aboutentertainment').style.display = 'none'; // Esconde o outro conteúdo
+                } else if (event.target.id === 'JapaneseEntertainmentbtn' && event.target.checked) {
+                    // Se o botão "Japan's Entertainment" for selecionado
+                    document.getElementById('aboutentertainment').style.display = 'flex'; // Mostra o conteúdo correspondente
+                    document.getElementById('EntertainmentinJapan').style.display = 'none'; // Esconde o outro conteúdo
+                } else {
+                    // Se nenhum botão estiver selecionado
+                    document.getElementById('aboutentertainment').style.display = 'none'; // Esconde o conteúdo
+                    document.getElementById('EntertainmentinJapan').style.display = 'none'; // Esconde o conteúdo
+                }
+            });
+        });
+    </script>
+    
+      
+
+
+
+
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

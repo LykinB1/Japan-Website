@@ -95,8 +95,30 @@ main{
     align-items: center;
 }
 
+
+
+
+/*Transition button*/
+.form-check{
+    margin-top: 20px;
+    position: relative;
+    right: 620px;
+}
+
+
+.form-check-label{
+    width: 420px;
+    font-size: 30px;
+    font-family: stylejapanesefont2;
+    background-color: red;
+    border-radius: 30px;
+}
+
+
+
+
 #aboutentertainment{
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     width: 90%;
@@ -513,4 +535,9 @@ main{
 }
 
 /*----------------------------------------------------------------------------------*/
+
+
+#EntertainmentinJapan{
+    display: flex;
+}
 
