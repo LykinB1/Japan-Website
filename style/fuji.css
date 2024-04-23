@@ -193,7 +193,7 @@ header{
     box-shadow: 20px 20px 20px 20px rgb(119, 112, 112);
     border: solid 2px white;
     background-color: white;
-    background-image: url();
+    background-image: url(../images/hakonebackground.jpg);
     background-size: cover;
     background-position-y: -400px;
     background-color: #9c9c9c56;
