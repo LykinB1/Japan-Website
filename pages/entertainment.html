@@ -169,29 +169,28 @@
         </div>
 
         <div id="EntertainmentinJapan">
-            <h1>test</h1>
+
         </div>
         
     </main>
     
 
     <script>
-        // Adiciona um event listener para os botões de rádio
         document.querySelectorAll('.form-check-input').forEach(item => {
             item.addEventListener('click', function(event) {
-                // Verifica qual botão de rádio foi clicado
+
                 if (event.target.id === 'ofJapanEntertainmentbtn' && event.target.checked) {
-                    // Se o botão "Japanese entertainment" for selecionado
-                    document.getElementById('EntertainmentinJapan').style.display = 'flex'; // Mostra o conteúdo correspondente
-                    document.getElementById('aboutentertainment').style.display = 'none'; // Esconde o outro conteúdo
+                    
+                    document.getElementById('EntertainmentinJapan').style.display = 'flex'; 
+                    document.getElementById('aboutentertainment').style.display = 'none'; 
                 } else if (event.target.id === 'JapaneseEntertainmentbtn' && event.target.checked) {
-                    // Se o botão "Japan's Entertainment" for selecionado
-                    document.getElementById('aboutentertainment').style.display = 'flex'; // Mostra o conteúdo correspondente
-                    document.getElementById('EntertainmentinJapan').style.display = 'none'; // Esconde o outro conteúdo
+                    
+                    document.getElementById('aboutentertainment').style.display = 'flex'; 
+                    document.getElementById('EntertainmentinJapan').style.display = 'none'; 
                 } else {
-                    // Se nenhum botão estiver selecionado
-                    document.getElementById('aboutentertainment').style.display = 'none'; // Esconde o conteúdo
-                    document.getElementById('EntertainmentinJapan').style.display = 'none'; // Esconde o conteúdo
+                    
+                    document.getElementById('aboutentertainment').style.display = 'none'; 
+                    document.getElementById('EntertainmentinJapan').style.display = 'none';
                 }
             });
         });

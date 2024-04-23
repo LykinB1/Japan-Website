@@ -21,7 +21,6 @@ header{
     align-items: center;
     
     background: linear-gradient(to left, rgba(255,255,255,1) 0%, rgba(255,255,255,0.4709976798143851) 10%, rgba(255,255,255,0) 20%), linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,0.4709976798143851) 10%, rgba(255,255,255,0) 20%);
-
 }
 
 #presentationicon{
@@ -539,5 +538,14 @@ main{
 
 #EntertainmentinJapan{
     display: flex;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 300vw;
+    margin-top: 50px;
+    box-shadow: 20px 20px 20px 20px rgb(119, 112, 112);
+    background-color: rgb(0, 0, 0);
+    border: solid 2px white;
 }
 
